@@ -1,0 +1,335 @@
+
+/* ---------------- Global ----------------- */
+
+
+* {
+  box-sizing: border-box;
+  padding : 0;
+  margin : 0;
+}
+
+html {
+  line-height: 1.15;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Inter',serif;
+  font-weight: 400;
+  color: #424242;
+  background-color: #ffffff;
+  line-height: 1.7;
+  min-width: 350px;
+  padding-top: 6.5rem;
+}
+
+
+h1,h3,h4,h5 {
+  line-height: 1.15;
+  font-size: 4.416rem;
+  font-weight: 500;
+  margin: 2rem 0;
+}
+
+h3 {
+  font-size: 3.104rem;
+}
+
+h4 {
+  font-size: 2.032rem;
+  margin: 0;
+}
+
+h5 {
+  font-size: 1.76rem;
+}
+
+a:link , a:visited{
+  text-decoration: none;
+  color: #2a87bd;
+  display: inline-block;
+  font-weight: 400;
+}
+
+a:hover , a:active {
+  color: #000000;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  line-height: 1.8;
+  font-size: 1.552rem;
+  color: #666666;
+  margin: 1.5rem 0;
+}
+
+.navbar {
+  position: fixed;
+  height: 7rem;
+  background-color: #fff;
+  top : 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1100px;
+  width: 90%;
+}
+
+header {
+  height: calc(100vh - 100px);
+  min-height: 500px;
+  max-height: 750px;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  max-width: 1100px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.align-center {
+  text-align: center;
+}
+
+footer {
+  background-color: #FBFBFB;
+  outline: #e9e9e9 solid 1px;
+  margin-top: 5rem;
+  padding-top: 3rem;
+}
+
+/* ---------------- Components -------------------- */
+
+.btn:link, .btn:visited {
+  background-color: #407ed1;
+  color: #ffffff;
+  font-size: 1.92rem;
+  padding: 1.1rem 3.3rem;
+  border-radius: 4px;
+  margin: 30px 0;
+  transition: 0.5s;
+}
+
+.btn:active, .btn:hover{
+  background-color: #000000;
+  transform: scale(1.05, 1.05);
+}
+
+.logo-sm {
+  max-width: 130px;
+  width: 100vw;
+  min-width: 100px;
+}
+
+.logo-md {
+  width: 150px;
+  margin: 2rem 0;
+}
+
+
+/* -------------------- Sections ------------------- */
+
+.navigation a:link, .navigation a:visited {
+  color: #666666;
+  font-size: 1.5rem;
+  font-weight: 200;
+}
+
+.navigation a:hover,.navigation a:active{
+  color: #2a87bd;
+}
+
+.navigation li {
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 6rem 0 3rem 0;
+}
+
+.hero p {
+  font-size: 2rem;
+  color: #424242;
+}
+
+.hero img {
+  max-width: 100vh;
+}
+
+.kite-demo {
+  padding: 0 0 0 3.5rem;
+}
+
+.pricing p{
+  color: #424242;
+}
+
+.footer__terms p {
+  font-size: 1.04rem;
+  color: #9b9b9b;
+}
+
+.pricing-img {
+  width: 100vh;
+  max-width: 120px;
+}
+
+.pricing-sub p{
+  font-size: 1.056rem;
+}
+
+.footer-links a:link,.footer-links a:visited {
+  color: #666666;
+  margin: 0.6rem 0;
+  font-size: 1.392rem;
+  font-weight: 300;
+}
+
+.footer-links a:hover,.footer-links a:active {
+  color: #407ed1;
+}
+
+.social-media a {
+  color: #666666;
+}
+
+.social-media p {
+  font-size: 1.2rem;
+}
+
+.footer-terms-links a {
+  font-size: 1.28rem;
+  color: #9b9b9b;
+  margin-bottom: 2rem;
+}
+
+.pricing a,.pricing-2 a {
+  font-size: 1.522rem;
+}
+
+.why-zarodha {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 6rem;
+  align-items: center;
+  margin: 8rem 0;
+}
+
+
+.footer-section {
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  gap: 2rem;
+}
+
+.footer-terms-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: column;
+}
+
+.social-icons {
+  display: flex;
+  gap: 3rem;
+}
+
+.social-icons a:link, .social-icons a:visited{
+  font-size: 2rem;
+  color: #666666;
+}
+
+.social-icons a:hover, .social-icons a:active{
+  color: #407ed1;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  gap: 5rem;
+}
+
+.pricing {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  align-items: center;
+  margin: 8rem 0;
+}
+
+.pricing-2 {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 8rem;
+  align-items: flex-start;
+  margin: 8rem 0;
+}
+
+.pricing-sub {
+  display: flex;
+  gap: 2rem;
+  width: 100%;
+}
+
+.box {
+  display: flex;
+  align-items: flex-end;
+  width: 100%;
+}
+
+.box p {
+  font-size: 1rem;
+  font-weight: 300;
+
+}
+
+.zerodha-acc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 6rem 0 6rem 0;
+}
+
+.nav-btn {
+  width: 2rem;
+}
+
+@media (max-width: 48rem) {
+  html {
+    font-size: 50%;
+  }
+  .why-zarodha,
+  .pricing,
+  .pricing-2,
+  .footer-section {
+    grid-template-columns: 1fr;
+    gap: 4rem;
+  }
+
+  .pricing-sub {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navigation a{
+    display: none;
+  }
+}
