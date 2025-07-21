@@ -10,7 +10,7 @@
 
 ## 📸 Preview
 
-![screenshot](./images/landing-page.png)
+![screenshot](./images/landing.png)
 
 ---
 
