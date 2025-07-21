@@ -267,6 +267,19 @@ footer {
   gap: 5rem;
 }
 
+.navigation-open {
+  display: grid;
+  height: 20rem;
+  width: 40rem;
+  padding: 2rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  position: absolute;
+  top: 5rem;
+  left: 80rem;
+  border-radius: 2px;
+  background-color: #fbfbfbd0;
+}
+
 .pricing {
   display: grid;
   grid-template-columns: 40% 60%;
@@ -308,8 +321,15 @@ footer {
   margin: 6rem 0 6rem 0;
 }
 
-.nav-btn {
-  width: 2rem;
+.menu-btn {
+  border : none;
+  font-size: 2.5rem;
+  font-weight: 300;
+  text-decoration: none;
+  background-color: white;
+  color: #666666;
+  cursor: pointer;
+  align-self: baseline
 }
 
 @media (max-width: 48rem) {
@@ -332,4 +352,6 @@ footer {
   .navigation a{
     display: none;
   }
+
 }
+
